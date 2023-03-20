@@ -11,6 +11,6 @@ Arguments:
 	
   --job - Jenkins job name
 	
-  --start_date START_DATE - Start Date in the format ddmmyyyy hh:mm
+  --start_date - Start Date in the format ddmmyyyy hh:mm
 												
-  --end_date END_DATE - End Date in the format ddmmyyyy hh:mm
+  --end_date - End Date in the format ddmmyyyy hh:mm
