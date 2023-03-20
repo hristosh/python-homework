@@ -47,16 +47,8 @@ with open("jenkins-job-report-" + d1 + ".csv", 'w', newline = '') as csvfile:
         build_number = (build["number"])
         build_status = (build["result"])
         build_duration = (build["duration"]/60)
-        # print("Job name =", build_name)
-        # print("Build Number =", build_number)
-        # print("Status =", build_status)
-        # print("Date =", build_date)
-        # print("Duration =", build_duration, "seconds")
-
 
         writer.writerow([build_name, build_number, build_status, build_duration, build_date])
 
-        # for next_line in builds:
-        #     writer.writerow(next_line)
 
 print("Report generated!")
