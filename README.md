@@ -9,7 +9,7 @@ Arguments:
 	
   --password - Password
 	
-  --job - JOB - Jenkins job name
+  --job - Jenkins job name
 	
   --start_date START_DATE - Start Date in the format ddmmyyyy hh:mm
 												
