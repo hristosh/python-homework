@@ -9,8 +9,8 @@ Arguments:
 	
   --password - Password
 	
-  --job - Jenkins job name
+  --job - Jenkins job name ex. "Jenkins Control/job/ScriptApproval"
 	
-  --start_date - Start Date in the format ddmmyyyy hh:mm
+  --start_date - Start Date in the format "ddmmyyyy hh:mm"
 												
-  --end_date - End Date in the format ddmmyyyy hh:mm
+  --end_date - End Date in the format "ddmmyyyy hh:mm"
