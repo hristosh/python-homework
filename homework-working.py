@@ -40,7 +40,7 @@ today = datetime.today()
 d1 = today.strftime("%d.%m.%Y")
 with open("jenkins-job-report-" + d1 + ".csv", 'w', newline = '') as csvfile:
     writer = csv.writer(csvfile, delimiter = ',')
-    writer.writerow(["Job name", "Build Number", "Status", "Duration", "Date"])
+    writer.writerow(["Job name", "Build Number", "Status", "Duration(sec.)", "Date"])
 
     for build in builds:
         build_name = (build["fullDisplayName"])
@@ -49,6 +49,5 @@ with open("jenkins-job-report-" + d1 + ".csv", 'w', newline = '') as csvfile:
         build_duration = (build["duration"]/60)
 
         writer.writerow([build_name, build_number, build_status, build_duration, build_date])
-
 
 print("Report generated!")
