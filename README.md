@@ -3,15 +3,13 @@ Usage: homework-working.py [-h] --user USER --password PASSWORD --job JOB [--sta
 
 Arguments:
 
-  -h, --help -  HELP
+  -h, --help - HELP
 	
-  --user - USER           Username
+  --user - Username
 	
-  --password - PASSWORD   Password
+  --password - Password
 	
-  --job - JOB             Jenkins job
-	
-	Optional:
+  --job - JOB - Jenkins job name
 	
   --start_date START_DATE - Start Date in the format ddmmyyyy hh:mm
 												
